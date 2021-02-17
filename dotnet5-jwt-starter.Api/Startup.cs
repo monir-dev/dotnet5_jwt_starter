@@ -129,6 +129,13 @@ namespace dotnet5_jwt_starter.Api
 
             app.UseRouting();
 
+            // global cors policy
+            app.UseCors(x => x
+                .SetIsOriginAllowed(origin => true)
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials());
+
             app.UseAuthentication();
             app.UseAuthorization();
 

@@ -1,3 +1,8 @@
 ﻿https://www.c-sharpcorner.com/article/authentication-and-authoriz
 https://sandrino.dev/blog/aspnet-core-5-jwt-authorizationation-in-asp-net-5-with-jwt-and-swagger/
 https://github.com/sandrinodimattia/aspnet-core-5-jwt-bearer-demo
+
+
+refresh token
+https://github.com/cornflourblue/aspnet-core-3-jwt-authentication-api
+https://jasonwatmore.com/post/2020/05/25/aspnet-core-3-api-jwt-authentication-with-refresh-tokens
