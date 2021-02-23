@@ -9,5 +9,6 @@ namespace dotnet5_jwt_starter.Api.Authentication
         {
         }
 
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
     }
 }

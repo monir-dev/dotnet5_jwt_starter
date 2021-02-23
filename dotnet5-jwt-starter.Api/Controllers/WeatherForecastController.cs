@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using dotnet5_jwt_starter.Api.Contracts.V1;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -10,7 +11,7 @@ namespace dotnet5_jwt_starter.Api.Controllers
 {
     [Authorize]
     [ApiController]
-    [Route("[controller]")]
+    //[Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -25,7 +26,7 @@ namespace dotnet5_jwt_starter.Api.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet(ApiRoutes.WeatherForecast.All)]
         public IEnumerable<WeatherForecast> Get()
         {
             var rng = new Random();

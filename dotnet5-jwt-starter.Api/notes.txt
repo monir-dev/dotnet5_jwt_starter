@@ -6,3 +6,5 @@ https://github.com/sandrinodimattia/aspnet-core-5-jwt-bearer-demo
 refresh token
 https://github.com/cornflourblue/aspnet-core-3-jwt-authentication-api
 https://jasonwatmore.com/post/2020/05/25/aspnet-core-3-api-jwt-authentication-with-refresh-tokens
+
+https://www.youtube.com/watch?v=AU0TIOZhGqs&list=PLUOequmGnXxOgmSDWU7Tl6iQTsOtyjtwU&index=14
